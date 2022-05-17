@@ -8,7 +8,7 @@ $db_password = 'Tennis13600_';
 $db_name = 'tennisproject_tennis';
 $db_host = 'mysql-tennisprojet.alwaysdata.net';
 
-$id = @mysqli_connect($db_host, $db_username, $db_password,$db_name) or die ("Impossible de se connecter à la base");
+$id = mysqli_connect($db_host, $db_username, $db_password,$db_name) or die ("Impossible de se connecter à la base");
 	?>
 <head>
 	<meta charset="UTF-8">

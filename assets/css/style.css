@@ -1234,10 +1234,10 @@ footer {
     opacity: 1;
     pointer-events: auto; }
 
-/*----------------- S-CROSSFIT-SLIDER -----------------*/
-.s-crossfit-slider {
+/*----------------- S-tennis-SLIDER -----------------*/
+.s-tennis-slider {
   position: relative; }
-  .s-crossfit-slider:before {
+  .s-tennis-slider:before {
     content: '';
     position: absolute;
     left: 0;
@@ -1305,22 +1305,22 @@ footer {
     .slider-navigation .slick-arrow.slick-arrow-next {
       right: 0; }
 
-.page-loaded .crossfit-slide.slick-current .crossfit-slide-bg {
+.page-loaded .tennis-slide.slick-current .tennis-slide-bg {
   transition: 0.6s cubic-bezier(0.26, 0.01, 0.22, 1.06) 0.2s;
   transform: scale(1) rotate(0deg); }
-.page-loaded .crossfit-slide.slick-current .crossfit-slide-cover {
+.page-loaded .tennis-slide.slick-current .tennis-slide-cover {
   transform: scale(1);
   opacity: 1;
   transition-delay: .3s; }
-.page-loaded .crossfit-slide.slick-current .crossfit-slider-effect {
+.page-loaded .tennis-slide.slick-current .tennis-slider-effect {
   transition: 0.4s cubic-bezier(0.26, 0.01, 0.22, 1.06);
   transition-delay: .4s;
   transform: scale(1);
   opacity: 1; }
-  .page-loaded .crossfit-slide.slick-current .crossfit-slider-effect.effect-2 {
+  .page-loaded .tennis-slide.slick-current .tennis-slider-effect.effect-2 {
     transition-delay: .48s; }
 
-.crossfit-slide:before {
+.tennis-slide:before {
   content: '';
   position: absolute;
   top: 0;
@@ -1329,7 +1329,7 @@ footer {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1; }
-.crossfit-slide .crossfit-slide-bg {
+.tennis-slide .tennis-slide-bg {
   transform-style: preserve-3d;
   position: absolute;
   top: 0;
@@ -1341,11 +1341,11 @@ footer {
   background-size: cover;
   transition: .4s ease-in;
   transform: scale(0.7) rotate(10deg); }
-.crossfit-slide .crossfit-slide-cover {
+.tennis-slide .tennis-slide-cover {
   transform: scale(0.5);
   opacity: 0;
   transition: 0.25s cubic-bezier(0.26, 0.01, 0.22, 1.06); }
-.crossfit-slide .container {
+.tennis-slide .container {
   min-height: 774px;
   display: flex;
   flex-direction: column;
@@ -1354,13 +1354,13 @@ footer {
   text-align: center;
   z-index: 2;
   padding-bottom: 22px; }
-.crossfit-slide .title {
+.tennis-slide .title {
   font-size: 66px;
   text-transform: uppercase;
   width: 100%; }
-  .crossfit-slide .title span {
+  .tennis-slide .title span {
     color: #fcbd56; }
-.crossfit-slide p {
+.tennis-slide p {
   max-width: 660px;
   margin: 8px auto 40px;
   padding: 15px 20px;
@@ -1368,7 +1368,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.5);
   font-weight: 300; }
 
-.crossfit-slider-effect {
+.tennis-slider-effect {
   position: absolute;
   top: 0;
   left: 0;
@@ -1380,7 +1380,7 @@ footer {
   transform: scale(2);
   opacity: 0; }
 
-.crossfit-slider-lite .crossfit-slide .title span {
+.tennis-slider-lite .tennis-slide .title span {
   color: #f23849; }
 
 .scene {
@@ -1931,21 +1931,21 @@ blockquote:before {
     .contact-item-right a:hover {
       color: #f23849; }
 
-/*-------------------- S-CROSSFIT --------------------*/
-.s-crossfit {
+/*-------------------- S-tennis --------------------*/
+.s-tennis {
   padding: 128px 0 140px; }
-  .s-crossfit .container {
+  .s-tennis .container {
     position: relative; }
-    .s-crossfit .container > div {
+    .s-tennis .container > div {
       position: relative;
       z-index: 1; }
 
-.crossfit-col {
+.tennis-col {
   padding-top: 40px; }
-  .crossfit-col:nth-child(2) {
+  .tennis-col:nth-child(2) {
     padding-top: 0; }
 
-.crossfit-item {
+.tennis-item {
   text-align: center;
   padding: 50px 40px;
   min-height: 404px;
@@ -1954,7 +1954,7 @@ blockquote:before {
   align-items: center;
   background-color: #272a31;
   position: relative; }
-  .crossfit-item:before {
+  .tennis-item:before {
     content: '';
     position: absolute;
     width: 95%;
@@ -1967,28 +1967,28 @@ blockquote:before {
     border: 7px solid #f23849;
     transition: .4s ease-in-out;
     pointer-events: none; }
-  .crossfit-item:hover:before {
+  .tennis-item:hover:before {
     margin-top: 0;
     opacity: 1; }
-  .crossfit-item h3 {
+  .tennis-item h3 {
     text-transform: uppercase;
     margin: 25px 0 6px; }
-  .crossfit-item p {
+  .tennis-item p {
     color: #bebebe;
     font-size: 15px;
     margin-bottom: 45px; }
 
-.crossfit-icon-1 {
+.tennis-icon-1 {
   position: absolute;
   top: 29%;
   left: 21%; }
 
-.crossfit-icon-2 {
+.tennis-icon-2 {
   position: absolute;
   top: -12%;
   left: 0%; }
 
-.crossfit-icon-3 {
+.tennis-icon-3 {
   position: absolute;
   top: 8%;
   right: 14%; }
@@ -2223,13 +2223,13 @@ blockquote:before {
     color: #bebebe;
     margin: 30px auto 46px; }
 
-/*----------------- S-CROSSFIT-BANNER -----------------*/
-.s-crossfit-banner {
+/*----------------- S-TENNIS-BANNER -----------------*/
+.s-tennis-banner {
   position: relative;
   background-color: #f23849;
   display: flex;
   justify-content: space-between; }
-  .s-crossfit-banner:after, .s-crossfit-banner:before {
+  .s-tennis-banner:after, .s-tennis-banner:before {
     content: '';
     position: absolute;
     left: 0;
@@ -2238,14 +2238,14 @@ blockquote:before {
     background-color: #202020;
     z-index: 1;
     pointer-events: none; }
-  .s-crossfit-banner:before {
+  .s-tennis-banner:before {
     bottom: -1px;
     clip-path: polygon(100% 100%, 0 0, 0 100%); }
-  .s-crossfit-banner:after {
+  .s-tennis-banner:after {
     top: -1px;
     clip-path: polygon(100% 0, 0 0, 0 100%); }
 
-.crossfit-banner-left {
+.tennis-banner-left {
   width: 44.5%;
   height: 604px;
   background-position: left center;
@@ -2253,7 +2253,7 @@ blockquote:before {
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
   position: relative; }
-  .crossfit-banner-left:after {
+  .tennis-banner-left:after {
     content: '';
     position: absolute;
     right: 0;
@@ -2263,7 +2263,7 @@ blockquote:before {
     z-index: 0;
     background-color: rgba(0, 0, 0, 0.5); }
 
-.crossfit-banner-right {
+.tennis-banner-right {
   width: 55.5%;
   display: flex;
   flex-direction: column;
@@ -2273,7 +2273,7 @@ blockquote:before {
   letter-spacing: 1px;
   padding: 20px 15px 10px 124px;
   position: relative; }
-  .crossfit-banner-right:before {
+  .tennis-banner-right:before {
     content: '';
     position: absolute;
     top: 0;
@@ -2283,8 +2283,8 @@ blockquote:before {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(../img/bg-crossfit.svg); }
-  .crossfit-banner-right .text-top {
+    background-image: url(../img/bg-tennis.svg); }
+  .tennis-banner-right .text-top {
     font-family: "Righteous", sans-serif;
     color: #000;
     font-weight: 400;
@@ -2293,14 +2293,14 @@ blockquote:before {
     margin-bottom: 19px;
     position: relative;
     z-index: 1; }
-  .crossfit-banner-right h2 {
+  .tennis-banner-right h2 {
     font-size: 9em;
     text-transform: uppercase;
     line-height: 0.7em;
     margin-bottom: 29px;
     position: relative;
     z-index: 1; }
-  .crossfit-banner-right .text-bottom {
+  .tennis-banner-right .text-bottom {
     font-size: 64px;
     font-weight: 500;
     text-transform: uppercase;
@@ -2308,11 +2308,11 @@ blockquote:before {
     line-height: 1em;
     position: relative;
     z-index: 1; }
-    .crossfit-banner-right .text-bottom a {
+    .tennis-banner-right .text-bottom a {
       font-weight: 700;
       color: #fcbd56;
       position: relative; }
-      .crossfit-banner-right .text-bottom a:before {
+      .tennis-banner-right .text-bottom a:before {
         content: '';
         position: absolute;
         display: block;
@@ -2322,9 +2322,9 @@ blockquote:before {
         background-color: #fcbd56;
         height: 2px;
         width: 100%; }
-      .crossfit-banner-right .text-bottom a:hover {
+      .tennis-banner-right .text-bottom a:hover {
         color: #fff; }
-        .crossfit-banner-right .text-bottom a:hover:before {
+        .tennis-banner-right .text-bottom a:hover:before {
           width: 0;
           background-color: #fff; }
 
@@ -2502,63 +2502,63 @@ blockquote:before {
   color: #bebebe;
   font-size: 15px; }
 
-/*------------------ S-OUR-TRAINER ------------------*/
-.s-our-trainer {
+/*------------------ S-OUR-MEMBRE ------------------*/
+.s-our-membre {
   padding: 128px 0 140px; }
-  .s-our-trainer .about-effect-tringle {
+  .s-our-membre .about-effect-tringle {
     top: 30%;
     right: 5%; }
 
-.trainer-img-col {
+.membre-img-col {
   display: flex;
   justify-content: flex-end; }
 
-.our-trainer-row {
+.our-membre-row {
   align-items: center; }
 
-.our-trainer-effect-1,
-.our-trainer-effect-2,
-.our-trainer-effect-3 {
+.our-membre-effect-1,
+.our-membre-effect-2,
+.our-membre-effect-3 {
   position: absolute; }
 
-.our-trainer-effect-1 {
+.our-membre-effect-1 {
   left: 40px;
   top: -90px; }
 
-.our-trainer-effect-2 {
+.our-membre-effect-2 {
   bottom: -90px;
   right: 20%; }
 
-.our-trainer-effect-3 {
+.our-membre-effect-3 {
   left: -50px;
   top: -30px; }
 
-.our-trainer-img {
+.our-membre-img {
   position: relative;
   z-index: 1; }
 
-.trainer-img-cover {
+.membre-img-cover {
   display: flex;
   position: relative; }
 
-.our-trainer-info .name {
+.our-membre-info .name {
   color: #f23849; }
-.our-trainer-info .prof {
+.our-membre-info .prof {
   font-weight: 600;
   margin-bottom: 15px; }
-.our-trainer-info p {
+.our-membre-info p {
   max-width: 90%; }
-.our-trainer-info .social-list {
+.our-membre-info .social-list {
   margin-top: 38px; }
-  .our-trainer-info .social-list li {
+  .our-membre-info .social-list li {
     margin-right: 18px; }
-    .our-trainer-info .social-list li:last-child {
+    .our-membre-info .social-list li:last-child {
       margin-right: 0; }
-  .our-trainer-info .social-list a {
+  .our-membre-info .social-list a {
     font-size: 23px; }
 
-/*----------------- S-TRAINER-AWARDS -----------------*/
-.s-trainer-awards {
+/*----------------- S-membre-AWARDS -----------------*/
+.s-membre-awards {
   padding: 128px 0;
   text-align: center;
   background-position: center;
@@ -2566,7 +2566,7 @@ blockquote:before {
   background-size: cover;
   background-attachment: fixed;
   position: relative; }
-  .s-trainer-awards .trainer-awards-effect {
+  .s-membre-awards .membre-awards-effect {
     position: absolute;
     top: 0;
     left: 0;
@@ -2577,7 +2577,7 @@ blockquote:before {
     background-size: 100% auto;
     z-index: 1;
     pointer-events: none; }
-  .s-trainer-awards:after, .s-trainer-awards:before {
+  .s-membre-awards:after, .s-membre-awards:before {
     content: '';
     position: absolute;
     left: 0;
@@ -2586,24 +2586,24 @@ blockquote:before {
     background-color: #202020;
     z-index: 1;
     pointer-events: none; }
-  .s-trainer-awards:before {
+  .s-membre-awards:before {
     top: -1px;
     clip-path: polygon(100% 0, 0 0, 0 100%); }
-  .s-trainer-awards:after {
+  .s-membre-awards:after {
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
     bottom: -1px; }
-  .s-trainer-awards .container {
+  .s-membre-awards .container {
     z-index: 2; }
 
-.trainer-award-col i {
+.membre-award-col i {
   display: block;
   margin: 0 auto 21px;
   font-size: 48px;
   color: #f23849; }
-.trainer-award-col h3 {
+.membre-award-col h3 {
   margin-bottom: 5px;
   text-transform: uppercase; }
-.trainer-award-col p {
+.membre-award-col p {
   font-size: 15px;
   line-height: 1.8; }
 
@@ -2717,22 +2717,22 @@ blockquote:before {
 .testimonials-border .testimonial-slide .prof {
   margin-top: 0; }
 
-/*------------------ S-BEST-TRAINER ------------------*/
-.s-best-trainer {
+/*------------------ S-BEST-membre ------------------*/
+.s-best-membre {
   padding: 128px 0 0; }
-  .s-best-trainer .section-title-bg {
+  .s-best-membre .section-title-bg {
     top: 80px; }
 
-.fitness-best-trainer .best-trainer-slide .prof {
+.fitness-best-membre .best-membre-slide .prof {
   color: #000; }
 
-.best-trainer-slide {
+.best-membre-slide {
   position: relative;
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 20px;
   margin-bottom: 20px; }
-  .best-trainer-slide:before {
+  .best-membre-slide:before {
     content: '';
     position: absolute;
     top: 0;
@@ -2746,19 +2746,19 @@ blockquote:before {
     transition: .4s ease;
     z-index: 2;
     opacity: 0; }
-  .best-trainer-slide:hover:before {
+  .best-membre-slide:hover:before {
     opacity: 1;
     margin-top: 20px; }
-  .best-trainer-slide:hover .name,
-  .best-trainer-slide:hover .surname,
-  .best-trainer-slide:hover .prof {
+  .best-membre-slide:hover .name,
+  .best-membre-slide:hover .surname,
+  .best-membre-slide:hover .prof {
     opacity: 1; }
-  .best-trainer-slide:hover .best-trainer-img:before {
+  .best-membre-slide:hover .best-membre-img:before {
     opacity: 0; }
-  .best-trainer-slide .best-trainer-img {
+  .best-membre-slide .best-membre-img {
     position: relative;
     margin-bottom: 12px; }
-    .best-trainer-slide .best-trainer-img:before {
+    .best-membre-slide .best-membre-img:before {
       content: '';
       position: absolute;
       top: 0;
@@ -2767,23 +2767,23 @@ blockquote:before {
       height: 100%;
       transition: .3s ease-in;
       background-color: rgba(0, 0, 0, 0.6); }
-  .best-trainer-slide img {
+  .best-membre-slide img {
     width: 100%;
     object-fit: cover;
     display: block; }
-  .best-trainer-slide .name {
+  .best-membre-slide .name {
     line-height: 1.2;
     color: #f23849;
     padding: 0 40px;
     transition: .4s ease;
     opacity: 0; }
-  .best-trainer-slide .surname {
+  .best-membre-slide .surname {
     line-height: 1.2;
     color: #f23849;
     padding: 0 40px;
     transition: .4s ease;
     opacity: 0; }
-  .best-trainer-slide .prof {
+  .best-membre-slide .prof {
     margin-top: 13px;
     font-size: 14px;
     color: #fff;
@@ -2807,7 +2807,7 @@ blockquote:before {
   min-height: 550px;
   display: flex;
   align-items: center; }
-  .s-about-information .trainer-awards-effect {
+  .s-about-information .membre-awards-effect {
     position: absolute;
     top: 0;
     left: 0;
@@ -2866,47 +2866,47 @@ blockquote:before {
       text-transform: uppercase;
       margin-top: 20px; }
 
-/*------------------- S-OUT-TRAINER -------------------*/
-.s-out-trainer {
+/*------------------- S-OUT-membre -------------------*/
+.s-out-membre {
   padding: 128px 0 140px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto; }
 
-.out-trainer-col {
+.out-membre-col {
   margin-bottom: 30px; }
-  .out-trainer-col:nth-child(2n) {
+  .out-membre-col:nth-child(2n) {
     transform: translateY(30px); }
 
-.out-trainer-item {
+.out-membre-item {
   display: flex;
   justify-content: space-between;
   background-color: #272a31;
   align-items: stretch;
   transition: .25s ease-in; }
-  .out-trainer-item:hover {
+  .out-membre-item:hover {
     background-color: #fff; }
-    .out-trainer-item:hover h3 a {
+    .out-membre-item:hover h3 a {
       color: #000; }
-      .out-trainer-item:hover h3 a:hover {
+      .out-membre-item:hover h3 a:hover {
         color: #f23849; }
-    .out-trainer-item:hover p {
+    .out-membre-item:hover p {
       color: #4d4d4d; }
-    .out-trainer-item:hover .social-list li a {
+    .out-membre-item:hover .social-list li a {
       color: #000; }
-      .out-trainer-item:hover .social-list li a:hover {
+      .out-membre-item:hover .social-list li a:hover {
         color: #f23849; }
 
-.out-trainer-img {
+.out-membre-img {
   flex: 0 0 30%;
   max-width: 30%; }
-  .out-trainer-img img {
+  .out-membre-img img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover; }
 
-.out-trainer-info {
+.out-membre-info {
   flex: 0 0 70%;
   max-width: 70%;
   display: flex;
@@ -2914,25 +2914,25 @@ blockquote:before {
   align-items: stretch;
   justify-content: center;
   padding: 30px; }
-  .out-trainer-info h3 {
+  .out-membre-info h3 {
     text-transform: uppercase;
     transition: .25s ease-in; }
-  .out-trainer-info .prof {
+  .out-membre-info .prof {
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 16px;
     color: #f23849;
     transition: .25s ease-in;
     font-weight: 500; }
-  .out-trainer-info p {
+  .out-membre-info p {
     color: #bebebe;
     margin-bottom: 17px;
     transition: .25s ease-in; }
-  .out-trainer-info .social-list li {
+  .out-membre-info .social-list li {
     margin-right: 18px; }
-    .out-trainer-info .social-list li:last-child {
+    .out-membre-info .social-list li:last-child {
       margin-right: 0; }
-    .out-trainer-info .social-list li a {
+    .out-membre-info .social-list li a {
       transition: .25s ease-in;
       font-size: 23px; }
 
@@ -3551,39 +3551,39 @@ blockquote:before {
 
 /* --------------------- MEDIA ---------------------- */
 @media (max-width: 1680px) {
-  .crossfit-banner-right {
+  .tennis-banner-right {
     padding-left: 60px; }
-    .crossfit-banner-right h2 {
+    .tennis-banner-right h2 {
       font-size: 8em; }
-    .crossfit-banner-right .text-top {
+    .tennis-banner-right .text-top {
       font-size: 42px; }
-    .crossfit-banner-right .text-bottom {
+    .tennis-banner-right .text-bottom {
       font-size: 48px; }
 
-  .crossfit-banner-left {
+  .tennis-banner-left {
     height: 560px; } }
 @media (max-width: 1440px) {
-  .crossfit-banner-right .text-bottom {
+  .tennis-banner-right .text-bottom {
     font-size: 42px; }
-  .crossfit-banner-right .text-top {
+  .tennis-banner-right .text-top {
     font-size: 40px; }
-  .crossfit-banner-right h2 {
+  .tennis-banner-right h2 {
     font-size: 7em; }
 
-  .crossfit-banner-left {
+  .tennis-banner-left {
     height: 510px; } }
 @media (max-width: 1366px) {
   .logo img {
     max-width: 96px; }
 
-  .s-crossfit-slider .slider-navigation {
+  .s-tennis-slider .slider-navigation {
     bottom: 28%; }
-  .s-crossfit-slider:before {
+  .s-tennis-slider:before {
     height: 40px; }
 
-  .crossfit-slide .title {
+  .tennis-slide .title {
     font-size: 56px; }
-  .crossfit-slide .container {
+  .tennis-slide .container {
     min-height: 700px; }
 
   .s-related-posts .post-item-cover .post-thumbnail img {
@@ -3592,7 +3592,7 @@ blockquote:before {
   #clockdiv .clock-item .smalltext {
     font-size: 22px; }
 
-  .crossfit-icon-2 {
+  .tennis-icon-2 {
     max-width: 70px; }
 
   #clockdiv {
@@ -3612,7 +3612,7 @@ blockquote:before {
     bottom: 50px;
     right: -40px; }
 
-  .s-about-information .trainer-awards-effect {
+  .s-about-information .membre-awards-effect {
     display: none; }
 
   .about-info-row .about-info-col .number {
@@ -3637,14 +3637,14 @@ blockquote:before {
   .fitness-post-col .post-footer .meta span {
     font-size: 14px; } }
 @media (max-width: 1280px) {
-  .crossfit-banner-right .text-bottom {
+  .tennis-banner-right .text-bottom {
     font-size: 36px; }
-  .crossfit-banner-right .text-top {
+  .tennis-banner-right .text-top {
     font-size: 34px; }
-  .crossfit-banner-right h2 {
+  .tennis-banner-right h2 {
     font-size: 6em; }
 
-  .crossfit-banner-left {
+  .tennis-banner-left {
     height: 450px;
     background-position: center; }
 
@@ -3656,13 +3656,13 @@ blockquote:before {
     padding: 88px 0 140px; }
 
   .s-fitness-gallery,
-  .s-our-trainer,
+  .s-our-membre,
   .s-contacts,
-  .s-out-trainer,
+  .s-out-membre,
   .s-counter,
   .s-training-schedule,
   .s-our-programs,
-  .s-crossfit {
+  .s-tennis {
     padding: 88px 0 100px; }
 
   .s-news,
@@ -3672,11 +3672,11 @@ blockquote:before {
     padding: 100px 0; }
 
   .s-fitness-posts,
-  .s-best-trainer,
+  .s-best-membre,
   .s-related-posts.home-related-posts {
     padding-top: 88px; }
 
-  .s-trainer-awards {
+  .s-membre-awards {
     padding: 88px 0; }
 
   .s-club-cards.club-cards-fitness {
@@ -3695,17 +3695,17 @@ blockquote:before {
 
   .welcome-fitness-info:before,
   .club-card-item:before,
-  .crossfit-item:before {
+  .tennis-item:before {
     border-width: 5px; }
 
   .fitness-banner-effect,
-  .s-trainer-awards .trainer-awards-effect,
+  .s-membre-awards .membre-awards-effect,
   .our-programs-effect,
-  .crossfit-icon-1,
-  .crossfit-icon-2,
-  .crossfit-icon-3,
+  .tennis-icon-1,
+  .tennis-icon-2,
+  .tennis-icon-3,
   .testimonials-effect,
-  .crossfit-slider-effect {
+  .tennis-slider-effect {
     display: none !important; }
 
   .gallery-item a:before {
@@ -3714,24 +3714,24 @@ blockquote:before {
   .title-decor {
     margin-bottom: 17px; }
 
-  .crossfit-banner-right .text-top {
+  .tennis-banner-right .text-top {
     font-size: 26px; }
-  .crossfit-banner-right .text-bottom {
+  .tennis-banner-right .text-bottom {
     font-size: 28px; }
-  .crossfit-banner-right h2 {
+  .tennis-banner-right h2 {
     font-size: 5.2em; }
 
-  .crossfit-banner-left {
+  .tennis-banner-left {
     height: 400px; }
 
   .logo img {
     max-width: 86px; }
 
-  .crossfit-slide .container {
+  .tennis-slide .container {
     min-height: 560px; }
-  .crossfit-slide .title {
+  .tennis-slide .title {
     font-size: 46px; }
-  .crossfit-slide p {
+  .tennis-slide p {
     max-width: 560px;
     font-size: 14px; }
 
@@ -3742,12 +3742,12 @@ blockquote:before {
   .slider-navigation .slick-arrow svg {
     height: 28px; }
 
-  .crossfit-item {
+  .tennis-item {
     padding: 40px 30px;
     min-height: 360px; }
-    .crossfit-item img {
+    .tennis-item img {
       max-width: 121px; }
-    .crossfit-item p {
+    .tennis-item p {
       font-size: 14px;
       margin-bottom: 27px; }
 
@@ -3765,9 +3765,9 @@ blockquote:before {
     .program-item:hover .program-item-front .program-item-inner {
       transform: translateZ(80px); }
 
-  .out-trainer-info .social-list li {
+  .out-membre-info .social-list li {
     margin-right: 16px; }
-    .out-trainer-info .social-list li a {
+    .out-membre-info .social-list li a {
       font-size: 18px; }
 
   .btn {
@@ -3816,26 +3816,26 @@ blockquote:before {
 
   .fitness-our-program,
   .s-contacts,
-  .s-out-trainer,
+  .s-out-membre,
   .s-training-schedule {
     background-image: none !important; }
 
   .welcome-fitness-item {
     padding-top: 7px; }
 
-  .best-trainer-slide {
+  .best-membre-slide {
     padding-bottom: 10px; }
-    .best-trainer-slide:before {
+    .best-membre-slide:before {
       height: calc(100% - 10px);
       width: calc(100% - 20px);
       border-width: 5px; }
-    .best-trainer-slide:hover:before {
+    .best-membre-slide:hover:before {
       margin-top: 10px; }
-    .best-trainer-slide .name,
-    .best-trainer-slide .surname,
-    .best-trainer-slide .prof {
+    .best-membre-slide .name,
+    .best-membre-slide .surname,
+    .best-membre-slide .prof {
       padding: 0 30px; }
-    .best-trainer-slide .prof {
+    .best-membre-slide .prof {
       margin-top: 8px; }
 
   .club-cards-lite .club-card-item {
@@ -3899,19 +3899,19 @@ blockquote:before {
   .clients-cover .client-slide .client-slide-cover {
     height: 100px; }
 
-  .trainer-award-col p {
+  .membre-award-col p {
     font-size: 14px;
     line-height: 1.6; }
 
-  .our-trainer-info p {
+  .our-membre-info p {
     max-width: 100%; }
 
-  .our-trainer-info .social-list li {
+  .our-membre-info .social-list li {
     margin-right: 16px; }
-    .our-trainer-info .social-list li a {
+    .our-membre-info .social-list li a {
       font-size: 18px; }
 
-  .our-trainer-effect-3 {
+  .our-membre-effect-3 {
     left: -30px; }
 
   .post-item-cover .post-thumbnail img {
@@ -4019,27 +4019,27 @@ blockquote:before {
   .widget-instagram li img {
     height: 63px; } }
 @media (max-width: 991px) {
-  .crossfit-banner-right {
+  .tennis-banner-right {
     padding-left: 40px; }
-    .crossfit-banner-right h2 {
+    .tennis-banner-right h2 {
       font-size: 60px; }
-    .crossfit-banner-right .text-top {
+    .tennis-banner-right .text-top {
       font-size: 24px; }
-    .crossfit-banner-right .text-bottom {
+    .tennis-banner-right .text-bottom {
       font-size: 26px; }
 
-  .crossfit-banner-left {
+  .tennis-banner-left {
     height: 350px; }
 
-  .crossfit-slide .title {
+  .tennis-slide .title {
     font-size: 40px; }
 
-  .s-crossfit-slider:before {
+  .s-tennis-slider:before {
     height: 30px; }
 
-  .crossfit-item {
+  .tennis-item {
     padding: 40px 20px; }
-    .crossfit-item img {
+    .tennis-item img {
       max-width: 111px; }
 
   .btn {
@@ -4054,7 +4054,7 @@ blockquote:before {
     .program-item .program-item-inner .btn {
       min-width: 110px; }
 
-  .out-trainer-info {
+  .out-membre-info {
     padding: 24px; }
 
   .club-card-item .price-cover .price {
@@ -4072,9 +4072,9 @@ blockquote:before {
   .training-schedule-table td {
     padding: 6px; }
 
-  .our-trainer-effect-1,
-  .our-trainer-effect-2,
-  .our-trainer-effect-3,
+  .our-membre-effect-1,
+  .our-membre-effect-2,
+  .our-membre-effect-3,
   .welcome-fitness-item img {
     display: none !important; }
 
@@ -4116,10 +4116,10 @@ blockquote:before {
   .s-about-information {
     min-height: 350px; }
 
-  .s-trainer-awards {
+  .s-membre-awards {
     padding-bottom: 48px; }
 
-  .trainer-award-col {
+  .membre-award-col {
     margin-bottom: 40px; }
 
   .widgets {
@@ -4203,34 +4203,34 @@ blockquote:before {
     .club-cards-lite .club-card-item .club-card-text {
       max-width: 350px; }
 
-  .crossfit-banner-left {
+  .tennis-banner-left {
     height: 300px; }
 
-  .crossfit-banner-right .text-top {
+  .tennis-banner-right .text-top {
     font-size: 20px; }
-  .crossfit-banner-right .text-bottom {
+  .tennis-banner-right .text-bottom {
     font-size: 20px; }
-  .crossfit-banner-right h2 {
+  .tennis-banner-right h2 {
     font-size: 44px; }
 
   .logo img {
     max-width: 76px; }
 
-  .crossfit-slide .title {
+  .tennis-slide .title {
     font-size: 34px; }
-  .crossfit-slide .container {
+  .tennis-slide .container {
     min-height: 350px; }
 
-  .crossfit-slide p {
+  .tennis-slide p {
     margin-bottom: 0; }
 
-  .crossfit-col {
+  .tennis-col {
     padding-top: 0;
     margin-bottom: 30px; }
-    .crossfit-col:last-child {
+    .tennis-col:last-child {
       margin-bottom: 0; }
 
-  .crossfit-item {
+  .tennis-item {
     min-height: auto; }
 
   .program-item {
@@ -4247,9 +4247,9 @@ blockquote:before {
     .club-card-col:last-child {
       margin-bottom: 0; }
 
-  .out-trainer-col:last-child {
+  .out-membre-col:last-child {
     margin-bottom: 0; }
-  .out-trainer-col:nth-child(2n) {
+  .out-membre-col:nth-child(2n) {
     transform: translateY(0); }
 
   .s-club-cards {
@@ -4258,7 +4258,7 @@ blockquote:before {
   .s-related-posts .related-post-col:last-child {
     margin-bottom: 0; }
 
-  .s-related-posts.home-related-posts.crossfit-lite-posts .related-post-col:nth-child(2n),
+  .s-related-posts.home-related-posts.tennis-lite-posts .related-post-col:nth-child(2n),
   .s-related-posts.home-related-posts .related-post-col:nth-child(2n) {
     top: 0; }
 
@@ -4342,15 +4342,15 @@ blockquote:before {
     .about-info-row .about-info-col:last-child {
       display: none; }
 
-  .trainer-img-col {
+  .membre-img-col {
     justify-content: center; }
-    .trainer-img-col img {
+    .membre-img-col img {
       max-width: 250px; }
 
-  .our-trainer-info {
+  .our-membre-info {
     text-align: center;
     margin-top: 22px; }
-    .our-trainer-info .social-list {
+    .our-membre-info .social-list {
       justify-content: center; }
 
   .post-item-cover .post-thumbnail img {
@@ -4412,7 +4412,7 @@ blockquote:before {
 
   .s-fitness-gallery .section-title-bg,
   .s-fitness-posts .section-title-bg,
-  .s-best-trainer .section-title-bg,
+  .s-best-membre .section-title-bg,
   .s-club-cards.club-cards-fitness .section-title-bg {
     top: 98px; }
 
@@ -4470,32 +4470,32 @@ blockquote:before {
   .reviews-list ul {
     padding-left: 15px; }
 
-  .best-trainer-slide .prof {
+  .best-membre-slide .prof {
     font-size: 12px; }
-  .best-trainer-slide .surname,
-  .best-trainer-slide .name {
+  .best-membre-slide .surname,
+  .best-membre-slide .name {
     font-size: 16px; }
 
   .s-welcome-fitness {
     padding-top: 88px; }
 
-  .crossfit-banner-left {
+  .tennis-banner-left {
     display: none; }
 
-  .crossfit-slide .title {
+  .tennis-slide .title {
     font-size: 30px; }
-  .crossfit-slide p {
+  .tennis-slide p {
     font-size: 12px; }
-  .crossfit-slide .container {
+  .tennis-slide .container {
     min-height: 440px; }
 
   .program-item {
     height: 320px; }
 
-  .crossfit-banner-right {
+  .tennis-banner-right {
     padding: 70px 15px;
     width: 100%; }
-    .crossfit-banner-right h2 {
+    .tennis-banner-right h2 {
       font-size: 52px; }
 
   .s-related-posts .post-item-cover .post-thumbnail img {

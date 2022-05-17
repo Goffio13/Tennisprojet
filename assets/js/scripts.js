@@ -14,10 +14,6 @@
 		return false;
 	});
 
-	$( window ).on('resize.myTemplate', function(){
-		$('body')[ ( $(this).width() <= 767 ) ? 'addClass' : 'removeClass' ]('isMobile')
-	}).trigger( 'resize.myTemplate' );
-
 	$( 'body' ).on('click', '.dropdown>a', function( event){
 		if( ! $('body.isMobile')[0] ){
 			return;
@@ -59,13 +55,6 @@
 			menuItem.removeClass('active');
 		}, 500 );
 	});
-
-	/* --------------------- PARALLAX -------------------- */
-	if( $( '.scene' )[0] ){
-		$('.scene').each( function( index, element ){
-			new Parallax( element );
-		});
-	}
 
 	/* --------------------- TO TOP -------------------- */
 	$(window).on( 'scroll.myTemplat', scrollWindow).trigger( 'scroll.myTemplat' );
@@ -122,9 +111,9 @@
 		});
 	}
 
-	/* ---------------- CROSSFIT-SLIDER --------------- */
-	if($('.crossfit-slider')[0]){
-		$('.crossfit-slider').slick({
+	/* ---------------- TENNIS-SLIDER --------------- */
+	if($('.tennis-slider')[0]){
+		$('.tennis-slider').slick({
 			infinite: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,
@@ -202,9 +191,9 @@
 		});
 	}
 
-	/* -------------- BEST-TRAINER-SLIDER ------------- */
-	if( $('.best-trainer-slider')[0] ){
-		$( '.best-trainer-slider' ).slick({
+	/* -------------- BEST-MEMBRE-SLIDER ------------- */
+	if( $('.best-membre-slider')[0] ){
+		$( '.best-membre-slider' ).slick({
 			slidesToShow: 5,
 			slidesToScroll: 1,
 			arrows: false,
@@ -301,103 +290,4 @@
 		$('.sidebar .widgets').toggle('ease');
 		return false;
 	});
-
-	/*-------------------- COUNTDOWN -------------------*/
-	if( $( '#clockdiv' )[0] ){
-		function getTimeRemaining(endtime) {
-			var t = Date.parse(endtime) - Date.parse(new Date());
-			var seconds = Math.floor((t / 1000) % 60);
-			var minutes = Math.floor((t / 1000 / 60) % 60);
-			var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-			var days = Math.floor(t / (1000 * 60 * 60 * 24));
-			return {
-				'total': t,
-				'days': days,
-				'hours': hours,
-				'minutes': minutes,
-				'seconds': seconds
-			};
-		}
-
-		function initializeClock(id, endtime) {
-			var clock = document.getElementById(id);
-			var daysSpan = clock.querySelector('.days');
-			var hoursSpan = clock.querySelector('.hours');
-			var minutesSpan = clock.querySelector('.minutes');
-			var secondsSpan = clock.querySelector('.seconds');
-
-			function updateClock() {
-				var t = getTimeRemaining(endtime);
-
-				daysSpan.innerHTML = t.days;
-				hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-				minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-				secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
-
-				if (t.total <= 0) {
-					clearInterval(timeinterval);
-				}
-			}
-
-			updateClock();
-			var timeinterval = setInterval(updateClock, 1000);
-		}
-
-		var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-		initializeClock('clockdiv', deadline);
-	}
-
-	/* -------------------- ISOTOPE ------------------- */
-	if( $( '.grid-gallery' )[0] ){
-		var $grid = $('.grid-gallery').isotope({
-			itemSelector: '.gallery-item',
-			percentPosition: true,
-			masonry: {
-				columnWidth: '.grid-sizer'
-			}
-		});
-
-		$( window ).on( 'load', rebuildMasonry ).on( 'resize', rebuildMasonry );
-		function rebuildMasonry(){
-			$grid.isotope();
-		}
-	}
-	/* ------------------- FANCYBOX 3 ------------------ */
-	if( $( '[data-fancybox]' )[0] ){
-		$( '[data-fancybox]' ).fancybox({
-			loop: true,
-			infobar: false,
-			transitionEffect: 'tube',
-			buttons: [
-			'close'
-			],
-		});
-	}
-
-	/*-------------------- GOOGLE MAP -------------------*/
-	if( $( '.google-map' )[0] ){
-		googleMapsInit();
-
-		function googleMapsInit() {
-			var mapOptions = {
-				zoom: 11,
-				center: new google.maps.LatLng(40.6501038, -73.9495823),
-				mapTypeControl: false,
-				fullscreenControl: false,
-				scalecontrol: false,
-				zoomControl: false,
-				streetViewControl: false,
-				rotateControl: false,
-				styles: [{'featureType':'all','elementType':'labels.text.fill','stylers':[{'saturation':36},{'color':'#000000'},{'lightness':40}]},{'featureType':'all','elementType':'labels.text.stroke','stylers':[{'visibility':'on'},{'color':'#000000'},{'lightness':16}]},{'featureType':'all','elementType':'labels.icon','stylers':[{'visibility':'off'}]},{'featureType':'administrative','elementType':'geometry.fill','stylers':[{'color':'#000000'},{'lightness':20}]},{'featureType':'administrative','elementType':'geometry.stroke','stylers':[{'color':'#000000'},{'lightness':17},{'weight':1.2}]},{'featureType':'landscape','elementType':'geometry','stylers':[{'color':'#000000'},{'lightness':20}]},{'featureType':'poi','elementType':'geometry','stylers':[{'color':'#000000'},{'lightness':21}]},{'featureType':'road.highway','elementType':'geometry.fill','stylers':[{'color':'#000000'},{'lightness':17}]},{'featureType':'road.highway','elementType':'geometry.stroke','stylers':[{'color':'#000000'},{'lightness':29},{'weight':0.2}]},{'featureType':'road.arterial','elementType':'geometry','stylers':[{'color':'#000000'},{'lightness':18}]},{'featureType':'road.local','elementType':'geometry','stylers':[{'color':'#000000'},{'lightness':16}]},{'featureType':'transit','elementType':'geometry','stylers':[{'color':'#000000'},{'lightness':19}]},{'featureType':'water','elementType':'geometry','stylers':[{'color':'#000000'},{'lightness':17}]}]
-			},
-			mapElement = document.getElementById( 'map' ),
-			map = new google.maps.Map( mapElement, mapOptions ),
-			marker = new google.maps.Marker( {
-				position: new google.maps.LatLng( 40.6401038, -73.9495823 ),
-				map: map,
-				icon: 'assets/img/map-point.png'
-			});
-		}
-	}
-
 }(jQuery));
